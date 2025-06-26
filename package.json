@@ -1,0 +1,46 @@
+{
+  "name": "smartgarage-app",
+  "version": "1.0.0",
+  "description": "AI-powered care for electric and hybrid vehicles across Africa",
+  "keywords": [
+    "electric-vehicles",
+    "hybrid-cars",
+    "automotive",
+    "africa",
+    "rwanda",
+    "ai-diagnosis",
+    "battery-prediction",
+    "garage-management"
+  ],
+  "license": "MIT",
+  "author": "SmartGarage Team",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "latest",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.454.0",
+    "next": "15.2.4",
+    "react": "^19",
+    "react-dom": "^19",
+    "tailwind-merge": "^2.5.5",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.5",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5",
+    "vite": "^4.5.0"
+  }
+}
