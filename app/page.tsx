@@ -1,11 +1,5 @@
-"use client"
+import LandingPage from "@/components/pages/LandingPage"
 
-/**
- * Root page that simply renders the existing <App /> component.
- * Next.js requires every route file (e.g. app/page.tsx) to have a **default export**.
- */
-import App from "../App"
-
-export default function RootPage() {
-  return <App />
+export default function HomePage() {
+  return <LandingPage />
 }
